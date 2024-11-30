@@ -36,7 +36,7 @@ const About = () => {
     {
       name: "Frontend Development",
       icon: "",
-      description: "React, Next.js, TypeScript",
+      description: "React, TypeScript",
       color: "#60A5FA"
     },
     {
@@ -46,53 +46,21 @@ const About = () => {
       color: "#34D399"
     },
     {
-      name: "UI/UX Design",
-      icon: "",
-      description: "Figma, Adobe XD",
-      color: "#F472B6"
-    },
-    {
-      name: "Mobile Development",
-      icon: "",
-      description: "React Native, Flutter",
-      color: "#A78BFA"
-    },
-    {
       name: "Database Management",
       icon: "",
-      description: "MongoDB, PostgreSQL",
+      description: "MongoDB",
       color: "#FBBF24"
-    },
-    {
-      name: "DevOps",
-      icon: "",
-      description: "Docker, AWS, CI/CD",
-      color: "#EC4899"
     }
   ];
 
   const experiences = [
     {
-      year: "2022 - Present",
-      title: "Senior Frontend Developer",
-      company: "Tech Innovation Labs",
-      description: "Leading frontend development team, architecting scalable solutions.",
+      year: "2024 Oct - 2024 Dec",
+      title: "Frontend Developer Intern",
+      company: "EZ-EMI",
+      description: "Worked on a project to create a web application for a startup. Developed a user-friendly interface for users to easily apply for loans.",
       color: "#60A5FA"
     },
-    {
-      year: "2020 - 2022",
-      title: "Full Stack Developer",
-      company: "Digital Solutions Inc",
-      description: "Developed and maintained full-stack applications using modern technologies.",
-      color: "#34D399"
-    },
-    {
-      year: "2018 - 2020",
-      title: "Web Developer",
-      company: "Creative Agency",
-      description: "Created responsive and interactive web applications for clients.",
-      color: "#A78BFA"
-    }
   ];
 
   return (

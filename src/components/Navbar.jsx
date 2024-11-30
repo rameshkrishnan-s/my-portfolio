@@ -64,10 +64,10 @@ const Navbar = () => {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-text-light dark:text-white text-2xl font-bold cursor-pointer"
+          className="text-text-light dark:text-white text-2xl font-bold cursor-pointer flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-primary-light to-secondary-light dark:from-primary-dark dark:to-secondary-dark hover:scale-110 transition-transform duration-300"
           onClick={() => scrollToSection('landing')}
         >
-          Logo
+          <span className="text-white">RK</span>
         </motion.div>
         
         <div className="flex space-x-8">

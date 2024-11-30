@@ -130,10 +130,10 @@ const Landing = () => {
           className="text-6xl md:text-8xl font-bold mb-6 relative"
         >
           <span className="block bg-gradient-to-r from-primary-light to-secondary-light dark:from-primary-dark dark:to-secondary-dark text-transparent bg-clip-text transform hover:scale-105 transition-transform duration-300">
-            Creative
+            Ramesh
           </span>
           <span className="block bg-gradient-to-r from-secondary-light to-primary-light dark:from-secondary-dark dark:to-primary-dark text-transparent bg-clip-text transform hover:scale-105 transition-transform duration-300 mt-2">
-            Developer
+            Krishnan
           </span>
           <motion.span
             className="absolute -inset-x-10 top-0 h-full w-[calc(100%+80px)]"
