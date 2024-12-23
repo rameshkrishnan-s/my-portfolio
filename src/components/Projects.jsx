@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
-
+import portfolioImg from "../../public/portfolio.png"
 const Projects = () => {
   const [activeProject, setActiveProject] = useState(null);
   const containerRef = useRef(null);
@@ -19,28 +19,28 @@ const Projects = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.2, 0.9, 1], [0, 1, 1, 0]);
 
   const projects = [
-    {
-      title: "AI-Powered Chat Application",
-      description: "Real-time chat application with AI-powered features including sentiment analysis and automatic language translation.",
-      tech: ["React", "Node.js", "Socket.io", "TensorFlow.js"],
-      image: "/project1.jpg",
-      link: "https://github.com/yourusername/project1",
-      color: "from-blue-500 to-purple-500"
-    },
-    {
-      title: "E-commerce Platform",
-      description: "Full-featured e-commerce platform with real-time inventory management and AI-powered product recommendations.",
-      tech: ["Next.js", "PostgreSQL", "Stripe", "Redis"],
-      image: "/project2.jpg",
-      link: "https://github.com/yourusername/project2",
-      color: "from-green-500 to-teal-500"
-    },
+    // {
+    //   title: "AI-Powered Chat Application",
+    //   description: "Real-time chat application with AI-powered features including sentiment analysis and automatic language translation.",
+    //   tech: ["React", "Node.js", "Socket.io", "TensorFlow.js"],
+    //   image: "/project1.jpg",
+    //   link: "https://github.com/yourusername/project1",
+    //   color: "from-blue-500 to-purple-500"
+    // },
+    // {
+    //   title: "E-commerce Platform",
+    //   description: "Full-featured e-commerce platform with real-time inventory management and AI-powered product recommendations.",
+    //   tech: ["Next.js", "PostgreSQL", "Stripe", "Redis"],
+    //   image: "/project2.jpg",
+    //   link: "https://github.com/yourusername/project2",
+    //   color: "from-green-500 to-teal-500"
+    // },
     {
       title: "Portfolio Website",
       description: "Modern portfolio website with advanced animations and interactive elements built with React and Framer Motion.",
-      tech: ["React", "Framer Motion", "Tailwind CSS", "Three.js"],
-      image: "/project3.jpg",
-      link: "https://github.com/yourusername/project3",
+      tech: ["React", "Framer Motion", "Tailwind CSS"],
+      image: portfolioImg,
+      link: "https://github.com/rameshkrishnan-s/my-portfolio",
       color: "from-pink-500 to-red-500"
     }
   ];
