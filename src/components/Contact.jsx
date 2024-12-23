@@ -40,10 +40,10 @@ const Contact = () => {
     setSubmitStatus({ type: 'loading', message: 'Sending message...' });
 
     emailjs.sendForm(
-      'service_x0ek66n', // Replace with your EmailJS service ID
-      'template_jep58gr', // Replace with your EmailJS template ID
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
       form.current,
-      'OYZ2z-H9Vqbgvnw3A' // Replace with your EmailJS public key
+      process.env.REACT_APP_EMAILJS_PUBLIC_KEY
     )
       .then((result) => {
         setSubmitStatus({
