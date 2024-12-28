@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
-import portfolioImg from "../../public/portfolio.png"
+import portfolioImg from '/src/assets/portfolio.png';
 const Projects = () => {
   const [activeProject, setActiveProject] = useState(null);
   const containerRef = useRef(null);

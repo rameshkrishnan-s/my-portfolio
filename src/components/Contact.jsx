@@ -141,18 +141,13 @@ const Contact = () => {
                 {
                   icon: "",
                   title: "Location",
-                  content: "Tirupur, Tamil Nadu, India"
+                  content: "Tamil Nadu, India"
                 },
                 {
                   icon: "",
                   title: "Email",
                   content: "sundarrajanrameshkrishnan@gmail.com"
                 },
-                {
-                  icon: "",
-                  title: "Phone",
-                  content: "+91 6383935616"
-                }
               ].map((item, index) => (
                 <motion.div
                   key={item.title}
